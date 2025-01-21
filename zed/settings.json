@@ -1,0 +1,38 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "languages": {
+    // Ginger Bill (creator of Odin) doesn't use LSPs. Wanted to try it out.
+    "Odin": {
+      "enable_language_server": false,
+      "show_inline_completions": false
+    }
+  },
+  "autosave": "on_focus_change",
+
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte (Transparent)",
+    "dark": "Catppuccin Mocha (Transparent)"
+  },
+
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
+
+  // Enable when on Dell 27" display. Default (15) is fine on 14" MacBook.
+  "buffer_font_size": 13,
+
+  "buffer_font_family": "Geist Mono",
+  "ui_font_family": "Geist"
+}
